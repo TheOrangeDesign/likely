@@ -33,7 +33,7 @@ The extension only looks for visible buttons whose text is exactly `Invite` insi
 - [Terms and Disclaimer](TERMS.md)
 - [Chrome Web Store submission material](STORE_LISTING.md)
 
-Likely is maintained by **The Orange Design**. For help, email [we@theorange.design](mailto:we@theorange.design) or use [GitHub Issues](https://github.com/TheOrangeDesign/likely/issues).
+Likely is maintained by **TheOrange.Design**. For help, email [we@theorange.design](mailto:we@theorange.design) or use [GitHub Issues](https://github.com/TheOrangeDesign/likely/issues).
 
 ## Reliability notes
 

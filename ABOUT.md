@@ -21,4 +21,4 @@ Likely does not choose a Facebook account, Page, post, audience, or reaction fil
 
 Likely is open source at <https://github.com/TheOrangeDesign/likely>.
 
-Likely is maintained by **The Orange Design**. For help, contact [we@theorange.design](mailto:we@theorange.design) or open a [GitHub issue](https://github.com/TheOrangeDesign/likely/issues).
+Likely is maintained by **TheOrange.Design**. For help, contact [we@theorange.design](mailto:we@theorange.design) or open a [GitHub issue](https://github.com/TheOrangeDesign/likely/issues).

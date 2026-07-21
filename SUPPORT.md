@@ -1,6 +1,6 @@
 # Likely Support
 
-Likely is maintained by **The Orange Design**. For help, email [we@theorange.design](mailto:we@theorange.design) or open a GitHub issue at <https://github.com/TheOrangeDesign/likely/issues>.
+Likely is maintained by **TheOrange.Design**. For help, email [we@theorange.design](mailto:we@theorange.design) or open a GitHub issue at <https://github.com/TheOrangeDesign/likely/issues>.
 
 ## Before requesting support
 
