@@ -2,6 +2,8 @@
 
 A local, unpacked Chrome extension that clicks **Invite** in a Facebook post's already-open reaction dialog. It attempts invitations one second apart, runs after its popup is closed, and provides cooldown, pause, stop, and session-limit controls.
 
+Likely runs entirely in the browser. It has no server, account system, analytics, advertising, or remote code. See the [Privacy Policy](PRIVACY.md), [FAQ](FAQ.md), and [Support guide](SUPPORT.md).
+
 ## Install
 
 1. Open `chrome://extensions` in Chrome.
@@ -19,6 +21,15 @@ A local, unpacked Chrome extension that clicks **Invite** in a Facebook post's a
 5. Reopen the extension to check progress, pause, or stop.
 
 The extension only looks for visible buttons whose text is exactly `Invite` inside the open dialog. It does not open posts, choose audiences, bypass warnings, or solve checkpoints. Facebook can change its interface at any time, and use remains subject to Facebook's terms and limits.
+
+## Project information
+
+- [About Likely](ABOUT.md)
+- [Privacy Policy](PRIVACY.md)
+- [Frequently Asked Questions](FAQ.md)
+- [Support](SUPPORT.md)
+- [Terms and Disclaimer](TERMS.md)
+- [Chrome Web Store submission material](STORE_LISTING.md)
 
 ## Reliability notes
 

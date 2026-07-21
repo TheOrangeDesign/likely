@@ -20,3 +20,6 @@ button:hover { filter: brightness(1.12); }
 .primary { background: #2374e1; color: white; }
 .danger { color: #ffb3b8; }
 .message { min-height: 16px; margin: 9px 0 0; color: #ffb3b8; font-size: 12px; }
+.footer-links { display: flex; gap: 14px; margin-top: 12px; font-size: 11px; }
+.footer-links a { color: #8ab4f8; text-decoration: none; }
+.footer-links a:hover { text-decoration: underline; }
