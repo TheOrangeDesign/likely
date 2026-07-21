@@ -6,11 +6,13 @@ Likely runs entirely in the browser. It has no server, account system, analytics
 
 ## Install
 
-1. Open `chrome://extensions` in Chrome.
-2. Enable **Developer mode**.
-3. Choose **Load unpacked** and select the extracted **Likely** folder. To request a copy, email [we@theorange.design](mailto:we@theorange.design).
-4. Pin **Likely** from Chrome's Extensions menu.
-5. Existing Facebook tabs should connect automatically. If Chrome blocks injection on a special page, refresh the Facebook tab once.
+1. Download this repository using **Code → Download ZIP** on GitHub.
+2. Extract the ZIP into a folder of your choice.
+3. Open `chrome://extensions` in Chrome.
+4. Enable **Developer mode**.
+5. Choose **Load unpacked** and select the extracted **Likely** folder—the folder containing `manifest.json`.
+6. Pin **Likely** from Chrome's Extensions menu.
+7. Existing Facebook tabs should connect automatically. If Chrome blocks injection on a special page, refresh the Facebook tab once.
 
 ## Use
 
@@ -30,6 +32,8 @@ The extension only looks for visible buttons whose text is exactly `Invite` insi
 - [Support](SUPPORT.md)
 - [Terms and Disclaimer](TERMS.md)
 - [Chrome Web Store submission material](STORE_LISTING.md)
+
+Likely is maintained by **The Orange Design**. For help, email [we@theorange.design](mailto:we@theorange.design) or use [GitHub Issues](https://github.com/TheOrangeDesign/likely/issues).
 
 ## Reliability notes
 

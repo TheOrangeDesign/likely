@@ -35,6 +35,8 @@ Process Invite buttons from an open Facebook post reaction dialog with session l
 
 **Support URL:** <https://github.com/TheOrangeDesign/likely/issues>
 
+**Support email:** we@theorange.design
+
 **Privacy policy URL:** <https://github.com/TheOrangeDesign/likely/blob/main/PRIVACY.md>
 
 ## Single purpose

@@ -20,3 +20,5 @@ Likely does not choose a Facebook account, Page, post, audience, or reaction fil
 - It is not affiliated with, endorsed by, or sponsored by Meta or Facebook.
 
 Likely is open source at <https://github.com/TheOrangeDesign/likely>.
+
+Likely is maintained by **The Orange Design**. For help, contact [we@theorange.design](mailto:we@theorange.design) or open a [GitHub issue](https://github.com/TheOrangeDesign/likely/issues).

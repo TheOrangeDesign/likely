@@ -50,6 +50,6 @@ Material changes to Likely's data practices will be described in an updated poli
 
 ## Contact
 
-For privacy questions or support, open an issue at <https://github.com/TheOrangeDesign/likely/issues>.
+For privacy questions or support, email [we@theorange.design](mailto:we@theorange.design) or open an issue at <https://github.com/TheOrangeDesign/likely/issues>.
 
 Likely's use of information complies with the Chrome Web Store User Data Policy, including its Limited Use requirements.
