@@ -8,7 +8,7 @@ Likely runs entirely in the browser. It has no server, account system, analytics
 
 1. Open `chrome://extensions` in Chrome.
 2. Enable **Developer mode**.
-3. Choose **Load unpacked** and select this folder: `D:\OpenAI\Likely`.
+3. Choose **Load unpacked** and select the extracted **Likely** folder. To request a copy, email [we@theorange.design](mailto:we@theorange.design).
 4. Pin **Likely** from Chrome's Extensions menu.
 5. Existing Facebook tabs should connect automatically. If Chrome blocks injection on a special page, refresh the Facebook tab once.
 
