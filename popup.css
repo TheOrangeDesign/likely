@@ -1,0 +1,22 @@
+:root { color-scheme: dark; font-family: system-ui, -apple-system, sans-serif; }
+body { margin: 0; width: 340px; background: #18191a; color: #e4e6eb; }
+main { padding: 18px; }
+h1 { font-size: 20px; margin: 0 0 5px; }
+.brand-icon { margin-right: 4px; }
+.hint, .fineprint { color: #b0b3b8; line-height: 1.4; }
+.hint { margin: 0 0 18px; }
+.fineprint { font-size: 11px; margin: 14px 0 0; }
+label { display: block; font-size: 12px; font-weight: 650; margin: 12px 0 5px; }
+label span { float: right; color: #8ab4f8; font-weight: 500; }
+input[type="range"] { width: 100%; accent-color: #2374e1; }
+input[type="number"] { box-sizing: border-box; width: 100%; margin-top: 5px; padding: 8px; color: #e4e6eb; background: #242526; border: 1px solid #3e4042; border-radius: 7px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.status { display: flex; gap: 10px; align-items: center; background: #242526; border-radius: 9px; padding: 11px; margin-top: 16px; }
+.status span { width: 10px; height: 10px; border-radius: 50%; background: #8a8d91; }
+.status small { display: block; color: #b0b3b8; margin-top: 2px; }
+.actions { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 14px; }
+button { border: 0; border-radius: 7px; padding: 9px; color: #e4e6eb; background: #3a3b3c; cursor: pointer; font-weight: 650; }
+button:hover { filter: brightness(1.12); }
+.primary { background: #2374e1; color: white; }
+.danger { color: #ffb3b8; }
+.message { min-height: 16px; margin: 9px 0 0; color: #ffb3b8; font-size: 12px; }

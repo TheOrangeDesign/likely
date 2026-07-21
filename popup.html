@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Likely</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1><span class="brand-icon" aria-hidden="true">👍</span> Likely</h1>
+      <p class="hint">Open a post's reaction list first, then start here.</p>
+
+      <div class="grid">
+        <label>Session limit
+          <input id="limit" type="number" min="100" max="5000" value="100" />
+        </label>
+        <label>Cooldown every
+          <input id="batchSize" type="number" min="10" max="500" value="100" />
+        </label>
+      </div>
+
+      <label>Cooldown minutes
+        <input id="cooldown" type="number" min="1" max="60" value="5" />
+      </label>
+
+      <section class="status" aria-live="polite">
+        <span id="statusDot"></span>
+        <div><strong id="statusText">Ready</strong><small id="details">0 invited this session</small></div>
+      </section>
+
+      <div class="actions">
+        <button id="start" class="primary">Start</button>
+        <button id="pause">Pause</button>
+        <button id="stop" class="danger">Stop</button>
+      </div>
+      <p id="message" class="message"></p>
+      <p class="fineprint">Invites are attempted one second apart. Keep Facebook open with the reaction dialog visible. Closing the popup is fine. Stop if Facebook shows a warning or checkpoint.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
