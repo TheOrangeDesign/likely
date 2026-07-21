@@ -99,7 +99,7 @@
       if (!dialog()) { respond({ ok: false, error: "Open the post's reaction list before starting.", state: publicState() }); return; }
       const s = message.settings || {};
       state.settings = {
-        limit: Math.min(5000, Math.max(100, Number(s.limit) || 100)),
+        limit: Math.min(5000, Math.max(100, Number(s.limit) || 500)),
         batchSize: Math.min(500, Math.max(10, Number(s.batchSize) || 100)),
         cooldownMinutes: Math.min(60, Math.max(1, Number(s.cooldownMinutes) || 5))
       };

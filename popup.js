@@ -43,7 +43,7 @@ async function act(type) {
     const response = await send(type, type === "START" ? { settings: settings() } : {});
     if (!response?.ok) throw new Error(response?.error || "Facebook tab did not respond. Refresh it after installing the extension.");
     render(response.state);
-    if (type === "START") await chrome.storage.local.set({ settings: settings() });
+    if (type === "START") await chrome.storage.local.set({ settings: settings(), settingsVersion: 2 });
   } catch (error) { $("message").textContent = error.message; }
 }
 
@@ -52,9 +52,11 @@ $("pause").addEventListener("click", () => act("TOGGLE_PAUSE"));
 $("stop").addEventListener("click", () => act("STOP"));
 
 (async () => {
-  const saved = (await chrome.storage.local.get("settings")).settings;
+  const stored = await chrome.storage.local.get(["settings", "settingsVersion"]);
+  const saved = stored.settings;
   if (saved) Object.entries(saved).forEach(([key, value]) => { if (controls[key]) controls[key].value = value; });
-  controls.limit.value = Math.min(5000, Math.max(100, Number(controls.limit.value) || 100));
+  if ((stored.settingsVersion || 1) < 2) controls.limit.value = 500;
+  controls.limit.value = Math.min(5000, Math.max(100, Number(controls.limit.value) || 500));
   controls.batchSize.value = Math.min(500, Math.max(10, Number(controls.batchSize.value) || 100));
   try { const response = await send("STATUS"); if (response?.state) render(response.state); } catch (error) { $("message").textContent = error.message; }
   setInterval(async () => { try { const response = await send("STATUS"); if (response?.state) render(response.state); } catch (_) {} }, 1000);
